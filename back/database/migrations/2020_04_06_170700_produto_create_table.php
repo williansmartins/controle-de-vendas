@@ -15,7 +15,6 @@ class ProdutoCreateTable extends Migration
     	Schema::create('produto', function (Blueprint $table) {
             //core
             $table->increments('id');
-            $table->string('titulo');
             $table->string('descricao');
             $table->string('marca');        
             $table->decimal('valor_pago', 8, 2);
@@ -26,8 +25,10 @@ class ProdutoCreateTable extends Migration
             $table->string('status');       
             $table->string('pagamento_forma');      
             $table->string('pagamento_detalhes');       
-            $table->string('comprador');        
-            $table->string('imagem');       
+            $table->string('comprador')->nullable();        
+            $table->string('imagem')->nullable();     
+            $table->string('investidor');
+            $table->date('data_compra');  
             
             //track
             $table->timestamps();
