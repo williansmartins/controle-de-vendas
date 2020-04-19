@@ -1,0 +1,89 @@
+<!-- Modal -->
+<div class="modal fade" id="avancada-modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="modalLabel">Busca avançada</h4>
+      </div>
+      <div class="modal-body">
+      	<div class="row">
+	        <div class="col-md-3 col-sm-3 col-xs-6">
+	          <label>Data inicial:</label>
+	          <input type="text" class="form-control data" id="data_inicial" placeholder="">
+	        </div>
+	        <div class="col-md-3 col-sm-3 col-xs-6">
+	          <label>Data final:</label>
+	          <input type="text" class="form-control data" id="data_final" placeholder="">
+	        </div>
+	        <div class="col-md-6 col-sm-6  col-xs-6">
+	          <label>Tipo:</label>
+	          <select class="form-control" id="tipo">
+		          	<option value="">Selecione</option>
+					<option value="TR">trilha</option>
+					<option value="JG">jingle</option>
+					<option value="ST">spot</option>
+					<option value="DB">dublagem</option>
+					<option value="SD">sound design</option>
+					<option value="MX">mixagem</option>
+					<option value="NC">nacionalização</option>
+					<option value="VH">vinheta</option>
+					<option value="AN">animatic</option>
+					<option value="NR">narramatic</option>
+					<option value="PPS">pós	produção som</option>
+					<option value="AD">áudio descrição</option>
+					<option value="IN">investimento</option>
+					<option value="DV">direitos	de veiculação</option>
+					<option value="FN">finalização de áudio</option>
+					<option value="RL">regravação locução</option>
+					<option value="RN">renovação dos direitos</option>
+					<option value="RP">reprodução fonograma</option>
+		        </select>
+	        </div>
+	        &nbsp;
+	        <br />
+	        <div class="col-md-6 col-sm-6 col-xs-6">
+	          <label>Status:</label>
+	          <select class="form-control" id="status">
+		          	<option value="">Selecione</option>
+					<option value="ORCAMENTO">Orçamento</option>
+					<option value="PRODUZINDO">Produzindo</option>
+					<option value="AUTORIZADO">Autorizado</option>
+					<option value="INVESTIMENTO">Investimento</option>
+					<option value="FATURANDO">Faturando</option>
+					<option value="FATURADO">Faturado</option>
+					<option value="INVESTIDO">Investido</option>
+			  </select>
+	        </div>
+	        <div class="col-md-6 col-sm-6 col-xs-6">
+	        	<label>Produto:</label>
+	          	<input type="text" class="form-control" id="produto">
+	        </div>
+	        <div class="row"></div>
+	        <br />
+	        <div class="col-md-12 col-sm-12 col-xs-12">
+	          <label>Agência:</label>
+	          <input type="text" class="form-control" id="agencia" placeholder="">
+	        </div>
+	        <div class="row"></div>
+	        <br />
+	        <div class="col-md-12">
+	          <label>Produtora:</label>
+	          <input type="text" class="form-control" id="produtora" placeholder="">
+	        </div>
+	        <div class="row"></div>
+	        <br />
+	        <div class="col-md-12">
+	          <label>Anunciante:</label>
+	          <input type="text" class="form-control" id="anunciante" placeholder="">
+	        </div>
+      	</div>
+          
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary btn-avancada-confirmar">Buscar</button>
+		<button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+      </div>
+    </div>
+  </div>
+</div>

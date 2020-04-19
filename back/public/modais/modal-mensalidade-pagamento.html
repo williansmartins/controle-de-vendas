@@ -1,0 +1,44 @@
+<!-- Modal -->
+<div class="modal fade" id="modal-mensalidade-pagamento" tabindex="-1" role="dialog" aria-labelledby="modalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="modalLabel">Atualizar pagamento</h4>
+      </div>
+      <form class="modal-body" id="form">
+      	<div class="row">
+        	<div class="form-group col-md-6">
+		        <label for="sel1">data de vencimento:</label>
+		        <input type="text" class="form-control data" name="vencimento" id="vencimento">
+	      	</div>  
+	      	<div class="form-group col-md-6">
+		        <label for="sel1">Valor:</label>
+		        <input type="text" class="form-control" name="valor" id="valor">
+	      	</div>     
+        	<div class="form-group col-md-6">
+		        <label for="sel1">Data de pagamento:</label>
+		        <input type="text" class="form-control data" name="data_pagamento" id="data_pagamento">
+	      	</div>  
+	      	<div class="form-group col-md-6">
+		        <label for="sel1">Valor pago:</label>
+		        <input type="text" class="form-control" name="valor_pago" id="valor_pago">
+	      	</div> 
+        	<div class="form-group col-md-6">
+		        <label for="sel1">Juros:</label>
+		        <input type="text" class="form-control" name="juros" id="juros">
+	      	</div>  
+	      	<div class="form-group col-md-6">
+		        <label for="sel1">Valor total:</label>
+		        <input type="text" class="form-control" name="total" id="total">
+	      	</div>  	      	
+      	</div>
+      	<div class="modal-footer">
+	        <button type="submit" class="btn btn-primary btn-avancada-confirmar">Salvar</button>
+			<button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+      	</div>
+          
+      </form>
+    </div>
+  </div>
+</div>

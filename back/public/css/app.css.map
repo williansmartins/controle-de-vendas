@@ -1,0 +1,1 @@
+{"version":3,"sources":["app.scss","teste.scss"],"names":[],"mappings":"AAEA;EACC,wBAAwB,EACxB;;ACJD;EACC,uBAAsB,EACtB","file":"app.css","sourcesContent":["// @import \"node_modules/bootstrap-sass/assets/stylesheets/bootstrap\";\n \n.body{\n\tbackground-color: green;\n}","eita{\n\tbackground-color:pink;    \n}"],"sourceRoot":"/source/"}

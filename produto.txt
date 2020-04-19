@@ -1,0 +1,19 @@
+produto
+
+marca:texto
+descricao:texto
+valor_pago:decimal
+valor_da_etiqueta:decimal
+valor_dolar:decimal
+imposto:decimal
+desconto:decimal
+status:texto
+pagamento_forma:texto
+pagamento_detalhes:texto
+comprador:texto
+imagem:texto
+
+DDL
+create table{
+    dsadsadasdsada
+}

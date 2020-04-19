@@ -1,0 +1,42 @@
+<!-- Modal -->
+<div class="modal fade" id="avancado-cadastro-modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="modalLabel">Busca avançada</h4>
+      </div>
+      <div class="modal-body">
+      	<div class="row">
+        	<div class="form-group col-md-6">
+		        <label for="sel1">Apelido:</label>
+		        <input type="text" class="form-control" id="codigo" placeholder="">
+	      	</div>      
+		      <div class="form-group col-md-6">
+		        <label for="sel1">Tipo de cadastro:</label>
+		        <select class="form-control" id="tipo">
+		          <option value="">Selecione</option>
+		          <option value="fornecedor">Fornecedor</option>
+		          <option value="agencia">Agência</option>
+		          <option value="produtora">Produtora</option>
+		          <option value="anunciante">Anunciante</option>
+		        </select>
+		      </div>
+		      <div class="form-group col-md-6">
+		        <label for="sel1">Nome / Razão Social:</label>
+		        <input type="text" class="form-control" id="nome" placeholder="">
+		      </div>      
+		      <div class="form-group col-md-6">
+		        <label for="sel1">Documento:</label>
+		        <input type="text" class="form-control" id="identificacao" placeholder="">
+		      </div>
+      	</div>
+          
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary btn-avancada-confirmar">Buscar</button>
+		<button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+      </div>
+    </div>
+  </div>
+</div>
